@@ -1,8 +1,0 @@
-SURETTERDI OSYNDA SALYNYZ ("My achievements" ushin)
-=====================================================
-1) Jetistikterinen 7 surетti usy qaltaga koshirped, osysha atañyz:
-     1.jpg  2.jpg  3.jpg  4.jpg  5.jpg  6.jpg  7.jpg
-2) IELTS nemese SAT natejesinin surетin:
-     photos/ielts.jpg    (astynda "IELTS result" dep turady)
-     photos/sat.jpg      (astynda "SAT result" dep turady)
-3) Jetik surет qalasa da sayt zhapsyrmai turady - sol surет tuym kemtin bolady.

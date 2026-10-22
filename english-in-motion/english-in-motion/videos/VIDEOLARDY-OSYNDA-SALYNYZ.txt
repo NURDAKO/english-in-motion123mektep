@@ -1,6 +1,0 @@
-VIDEOLARDY OSYNDA SALYNYZ ("Materials" ushin)
-==============================================
-1) 4 videony osy qaltaga salynyz:  1.mp4  2.mp4  3.mp4  4.mp4
-   (tek .mp4 nemese .webm; 1 fayl 100 MB-dan aspauy kerek)
-2) Saytty Netlify-qa salgan saida videolar Materials boluminde
-   qatar turady. materials.js faylyn ozgertu qajet emes.
