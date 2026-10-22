@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>English in Motion — Digital Language Observatory</title>
+<meta name="description" content="An interactive digital research exhibit about how English changes across multilingual communication, online writing, and regional varieties.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#top" aria-label="School-Lyceum No. 123 named after T. Zhurgenov — home">
+      <img class="brand-logo" src="images/logo.jpg" alt="School logo">
+      <span class="brand-school">School-Lyceum &#8470;123 named after T.&nbsp;Zhurgenov</span>
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#authors">Authors</a>
+      <a href="#atlas">Atlas</a>
+      <a href="#archive">Archive</a>
+      <a href="#claims">Claims</a>
+      <a href="#signals">Signals</a>
+      <a href="#casefile">Case File</a>
+      <a href="#sources">Sources</a>
+      <a href="#materials">Materials</a>
+      <a href="#achievements">My achievements</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============ AUTHORS ============ -->
+<section class="section authors-section" id="authors">
+  <div class="section-head section-head--center">
+    <p class="eyebrow">AUTHORS</p>
+    <h2>Authors</h2>
+  </div>
+  <div class="authors-grid">
+    <article class="author-card author-card--student">
+      <div class="author-photo-wrap"><img class="author-photo" src="images/student.jpg" alt="Photo of Argyn Ernur"></div>
+      <h3 class="author-name">Argyn Ernur</h3>
+      <p class="author-role">Student &middot; Grade: 11</p>
+    </article>
+    <article class="author-card author-card--teacher">
+      <div class="author-photo-wrap"><img class="author-photo" src="images/teacher.jpg" alt="Photo of Iskakova Aigerim"></div>
+      <h3 class="author-name">Iskakova Aigerim</h3>
+      <p class="author-role">Supervisor</p>
+    </article>
+  </div>
+</section>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">DIGITAL LANGUAGE OBSERVATORY</p>
+      <h1>English in <span class="accent-red">motion</span>.</h1>
+      <p class="hero-intro">Explore English in multilingual settings: how forms shift, where claims begin, and what evidence can actually show.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#atlas">Explore the phenomenon atlas</a>
+        <a class="btn btn-secondary" href="#claims">Examine a claim</a>
+      </div>
+      <p class="data-note">Every example is constructed for learning. None is student-submitted data.</p>
+    </div>
+    <div class="hero-orbit" aria-hidden="true">
+      <svg viewBox="0 0 400 400" class="orbit-svg" role="img">
+        <defs>
+          <path id="orbitPath1" d="M200,200 m-150,0 a150,150 0 1,1 300,0 a150,150 0 1,1 -300,0"/>
+          <path id="orbitPath2" d="M200,200 m-105,0 a105,105 0 1,1 210,0 a105,105 0 1,1 -210,0"/>
+        </defs>
+        <circle class="orbit-ring" cx="200" cy="200" r="150"/>
+        <circle class="orbit-ring orbit-ring-2" cx="200" cy="200" r="105"/>
+        <g class="orbit-spin orbit-spin-slow">
+          <text class="orbit-word orbit-word-form"><textPath href="#orbitPath1" startOffset="2%">FORM</textPath></text>
+          <circle class="orbit-dot dot-red" cx="200" cy="50" r="7"/>
+        </g>
+        <g class="orbit-spin orbit-spin-rev">
+          <text class="orbit-word orbit-word-mix"><textPath href="#orbitPath2" startOffset="30%">MIX</textPath></text>
+          <circle class="orbit-dot dot-violet" cx="200" cy="95" r="6"/>
+        </g>
+        <g class="orbit-center">
+          <circle class="orbit-core" cx="200" cy="200" r="62"/>
+          <text class="orbit-core-text" x="200" y="193" text-anchor="middle">EN /</text>
+          <text class="orbit-core-text" x="200" y="214" text-anchor="middle">IN MOTION</text>
+        </g>
+        <text class="orbit-word orbit-word-voice" x="200" y="384" text-anchor="middle">VOICE</text>
+      </svg>
+    </div>
+  </div>
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>NOTICE THE FORM ✳ SEPARATE THE CLAIM ✳ LOOK FOR EVIDENCE ✳ LEAVE ROOM FOR CONTEXT ✳&nbsp;</span>
+      <span>NOTICE THE FORM ✳ SEPARATE THE CLAIM ✳ LOOK FOR EVIDENCE ✳ LEAVE ROOM FOR CONTEXT ✳&nbsp;</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 01 PHENOMENON ATLAS ============ -->
+<section class="section" id="atlas">
+  <div class="section-head">
+    <p class="eyebrow">PHENOMENON ATLAS</p>
+    <h2>Seven phenomena, described first</h2>
+    <p class="section-intro">Select a tab. Each panel shows a definition, a constructed example, the observable feature, and the interpretive limit.</p>
+  </div>
+  <div class="atlas-tabs" role="tablist" aria-label="Language phenomena" id="atlas-tabs"></div>
+  <div class="atlas-panel" id="atlas-panel" role="tabpanel" tabindex="0"></div>
+</section>
+
+<!-- ============ 02 OBSERVATION ARCHIVE ============ -->
+<section class="section section-tinted" id="archive">
+  <div class="section-head">
+    <p class="eyebrow">OBSERVATION ARCHIVE</p>
+    <h2>Observation archive</h2>
+    <p class="section-intro">Search and filter 39 constructed cases across six categories. Open a card to see its analysis.</p>
+  </div>
+  <div class="archive-controls">
+    <label class="search-label" for="archive-search">Search the archive</label>
+    <input type="search" id="archive-search" placeholder="Search a word, phrase, or phenomenon..." aria-describedby="archive-count">
+    <div class="filter-row" id="archive-filters" role="group" aria-label="Filter by category"></div>
+    <p class="result-count" id="archive-count" aria-live="polite"></p>
+  </div>
+  <div class="archive-grid" id="archive-grid"></div>
+  <p class="research-note"><strong>Research note.</strong> All sentences here are constructed for teaching. They are not survey responses, student quotations, or excerpts from a natural corpus. Variety examples are tied to specific language contexts; one sentence cannot identify a speaker's origin or identity.</p>
+</section>
+
+<!-- ============ 03 CLAIMS DESK ============ -->
+<section class="section" id="claims">
+  <div class="section-head">
+    <p class="eyebrow">CLAIMS DESK</p>
+    <h2>Claims desk</h2>
+    <p class="section-intro">Five broad claims, tested. Open a card to see why it needs testing, what evidence it requires, and careful alternative wording.</p>
+  </div>
+  <div class="claims-list" id="claims-list"></div>
+</section>
+
+<!-- ============ 04 SIGNAL FIELD ============ -->
+<section class="section section-tinted" id="signals">
+  <div class="section-head">
+    <p class="eyebrow">SIGNAL FIELD</p>
+    <h2>Signal field</h2>
+    <p class="section-intro">Six possible communicative functions, presented as research hypotheses — not established motives. Select a node to read the signal.</p>
+  </div>
+  <div class="signal-field">
+    <div class="signal-nodes" id="signal-nodes" role="group" aria-label="Signal nodes"></div>
+    <div class="signal-readout" id="signal-readout" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- ============ 05 CASE FILE ============ -->
+<section class="section" id="casefile">
+  <div class="section-head">
+    <p class="eyebrow">CASE FILE 001</p>
+    <h2>From example to claim</h2>
+    <p class="section-intro">Compare three layers: what the researcher observes, what cannot yet be claimed, and what evidence could support a stronger conclusion.</p>
+  </div>
+  <div class="case-banner">
+    <span class="case-label">CONSTRUCTED CASE / NOT PARTICIPANT DATA</span>
+    <p>Three ways to examine one message. The message below is constructed for teaching. It cannot support claims about a real student, group, or social platform.</p>
+  </div>
+  <div class="case-tabs" role="tablist" aria-label="Case file layers" id="case-tabs"></div>
+  <div class="case-panel" id="case-panel" role="tabpanel" tabindex="0"></div>
+  <div class="method-table-wrap">
+    <table class="method-table">
+      <caption>Three-step method</caption>
+      <thead><tr><th>Step</th><th>Action</th><th>Guidance</th></tr></thead>
+      <tbody>
+        <tr><td>01 / DESCRIBE</td><td>Name the form</td><td>Describe the code-switch or other observable feature precisely.</td></tr>
+        <tr><td>02 / DISTINGUISH</td><td>Separate hypothesis from evidence</td><td>Do not present a possible explanation as proven intent.</td></tr>
+        <tr><td>03 / SUPPORT</td><td>Identify the evidence needed</td><td>A stronger claim may require a sample, context, and comparison.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ============ 06 SOURCE SHELF ============ -->
+<section class="section section-tinted" id="sources">
+  <div class="section-head">
+    <p class="eyebrow">SOURCE SHELF</p>
+    <h2>Source shelf</h2>
+    <p class="section-intro">Research and grammar references for further reading on multilingual communication in Kazakhstan.</p>
+  </div>
+  <div class="sources-grid" id="sources-grid"></div>
+  <p class="research-note"><strong>Source note.</strong> The examples on this site are original teaching illustrations, not quotations from participants in the cited studies. For academic writing, consult each full text and format the reference according to the required style.</p>
+</section>
+
+<!-- ============ MATERIALS ============ -->
+<section class="section" id="materials">
+  <div class="section-head">
+    <p class="eyebrow">VIDEO / MATERIALS</p>
+    <h2>Materials</h2>
+  </div>
+  <div id="materials-grid" class="materials-grid"></div>
+</section>
+
+
+<!-- ============ MY ACHIEVEMENTS ============ -->
+<section class="section" id="achievements">
+  <div class="section-head">
+    <p class="eyebrow">MY ACHIEVEMENTS</p>
+    <h2>My achievements</h2>
+  </div>
+  <div class="gallery-grid" id="gallery-grid"></div>
+</section>
+
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <p class="footer-brand">School-Lyceum &#8470;123 named after T. Zhurgenov</p>
+      <p class="footer-desc">A digital exhibit for observing multilingual communication. Its guiding principle: describe first, then interpret with evidence.</p>
+    </div>
+    <p class="footer-stamp">RESEARCH PROJECT PRODUCT / NON-STANDARD ENGLISH &amp; CODE-SWITCHING / KAZAKHSTAN · 2026</p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="materials.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
